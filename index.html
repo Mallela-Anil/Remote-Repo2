@@ -1,13 +1,54 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <p>hello world</p>
-    <p>main branch code</p>
-    <p>in feature branch</p>
+<h2>Restaurant Membership Form</h2>
+<hr>
+<fieldset>
+    <legend><Strong>Personal Details</Strong></legend>
+    <br>
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="myName">
+    <hr>
+    <br>
+    <label for="email">Email:</label><br>
+    <input type="email" name="myEmail" id="email">
+    <hr>
+    <br>
+    <label for="mobile">Phone Number:</label><br>
+    <input type="tel" name="number" id="mobile">
+    <hr>
+    <br>
+</fieldset>
+<fieldset>
+    <legend><strong>Subscription Details</strong></legend>
+    <br>
+    <label for="membership"><strong>Membership Type:</strong></label><br>
+    <br>
+    <select name="myMembership" id="membership">
+        <option value="Silver">Silver</option>
+        <option value="Gold">Gold</option>
+        <option value="Platinum">Platinum</option>
+    </select>
+    <hr>
+    <label for="package"><strong>Select package of your choice:</strong></label><br>
+    <br>
+    <input type="radio" name="myPackage" id="package">Monthly Package <br>
+    <input type="radio" name="myPackage" id="package">Annaul Package <br>
+    <hr>
+    <br>
+    <label for="photo"><strong>Upload Photo:</strong></label><br>
+    <br>
+    <input type="file" name="myPhoto" id="photo">
+    <hr>
+    <br>
+</fieldset>
+<br>
+<button type="button">Submit</button>
 </body>
 </html>
